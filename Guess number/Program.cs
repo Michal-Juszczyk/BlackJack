@@ -31,12 +31,6 @@ namespace Oczko
                 {
                     int currentNumber = GenerateNumbers();  // Generowanie bieżącej liczby
 
-                    if (previousNumber != 0)
-                    {
-                        // Jeśli poprzednia liczba istnieje, dodaj ją do bieżącej liczby
-                        currentNumber += previousNumber;
-                    }
-
                     totalGeneratedNumbers += currentNumber;  // Dodanie bieżącej liczby do sumy
 
                     Console.WriteLine($"Wygenerowana liczba: {currentNumber}");
